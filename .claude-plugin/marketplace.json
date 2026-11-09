@@ -1,0 +1,30 @@
+{
+  "name": "use-subagents-wisely-skills",
+  "id": "use-subagents-wisely-skills",
+  "owner": {
+    "name": "Panuakdet Suwannatat"
+  },
+  "metadata": {
+    "description": "A Claude Code skill that keeps the main session small and hands real work to helper agents on the right model tier, chosen by a $ to $$$$$ spending level",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "use-subagents-wisely",
+      "source": "./",
+      "description": "Lean-orchestrator session mode: plan and check in the main session, delegate reading, coding and testing to subagents on Top, Mid or Low model tiers according to a $ spending level",
+      "version": "1.0.0",
+      "author": {
+        "name": "Panuakdet Suwannatat"
+      },
+      "keywords": [
+        "subagents",
+        "orchestration",
+        "model-selection",
+        "usage-limits",
+        "workflow"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
